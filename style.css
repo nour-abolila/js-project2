@@ -1,0 +1,57 @@
+.card-img-top{
+
+    width: 100%;
+    height: 200px;
+}
+
+.d-block{
+
+    height: 690px;
+}
+
+.totop{
+    font-size: 24px;
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+    color: #0dcaf0;
+    transition: 0.2s ease;
+}
+
+.totop:hover{
+
+   color: #000000;
+   cursor: pointer;
+   transform: scale(1.2);
+}
+body
+{
+    background-color: white; 
+    color: black; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.dark-mode {
+    background-color: #333; 
+    color: white; 
+}
+
+@media (max-width: 600px) {
+   
+    .d-block{
+
+        height: 300px;
+    }
+.update{
+
+    width: 350%;
+}
+
+.totop{
+
+    font-size: 20px;
+    right: 8px;
+
+}
+
+}
